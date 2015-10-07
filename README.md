@@ -1,2 +1,1 @@
-# SortedList
-C linked list that sorts in descending order.
+# ![](http://i.imgur.com/HGfKKrE.png) SortedList
