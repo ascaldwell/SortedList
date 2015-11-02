@@ -195,10 +195,10 @@ SortedListIteratorPtr SLCreateIterator(SortedListPtr list)
 	/* Make Node in iterator point to first node
 	** Counter has number of nodes in list
 	** Increment reference count of node
-	** Steve is a tracker with +9 to dexterity */
+	** track is a tracker with +9 to dexterity */
 	itr->item = list->head;
 	itr->counter = list->counter;
-	itr->steve = 0;
+	itr->track = 0;
 
 	// If list is NULL 
 	if(!itr)
@@ -215,11 +215,11 @@ void SLDestroyIterator(SortedListIteratorPtr iter)
 void * SLNextItem(SortedListIteratorPtr iter)
 {
 	// End of list
-	if(iter->steve == iter->counter)
+	if(iter->track == iter->counter)
 		return NULL;
 
 	// Increment tracker
-	iter->steve++;
+	iter->track++;
 
 	// Get value of node and reference count goes down by 1
 	void* temp = iter->item->value;
