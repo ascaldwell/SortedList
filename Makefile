@@ -1,3 +1,4 @@
+
 all:
 	$(info  ***** Building *****)
 	gcc -c main.c
