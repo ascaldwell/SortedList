@@ -1,0 +1,38 @@
+
+ Testplan
+ ========
+
+ Case 1:
+ 
+  Insert: 7, 7, 8, 1
+  Output: 8, 7, 1
+
+  Remove: 8
+  Output: 7, 1
+
+ 
+ Case 2:
+  
+  Insert: 22.3, 98.2, 1.2
+  Output: 98.2, 22.3, 1.2
+
+  Remove: 22.3
+  Output: 98.2, 1.2
+
+ 
+ Case 3:
+
+  Insert: s, a, c
+  Output: s, c, a
+
+  Remove: c, s
+  Output: a
+
+ 
+ Case 4:
+
+   Insert: Hello, World
+   Output: World, Hello
+
+   Remove: Hello
+   Output: World
