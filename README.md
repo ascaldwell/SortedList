@@ -1,5 +1,5 @@
 # ![](http://i.imgur.com/csBM5cD.png) SortedList
-C linked list that sorts any type of item in descending order.
+C linked list that sorts any type of list in descending order.
 
     Change main.c to how you want to insert items.
     
